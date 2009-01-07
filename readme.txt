@@ -1,4 +1,4 @@
-=== Gravatar Shortcode ===
+=== WP Email Login ===
 Contributors: beaulebens
 Tags: email, login, authentication, users
 Requires at least: 2.3
