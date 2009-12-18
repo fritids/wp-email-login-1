@@ -2,7 +2,7 @@
 Contributors: beaulebens
 Tags: email, login, authentication, users, admin
 Requires at least: 2.3
-Tested up to: 2.7.1
+Tested up to: 2.9
 Stable tag: trunk
 Donate link: http://dentedreality.com.au
 
