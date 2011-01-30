@@ -1,5 +1,5 @@
 === WP Email Login ===
-Contributors: beaulebens
+Contributors: beaulebens, r-a-y, andykillen
 Tags: email, login, authentication, users, admin
 Requires at least: 2.8
 Tested up to: 3.1-alpha
