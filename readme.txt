@@ -13,6 +13,7 @@ Lets you use your email address to log into your WordPress account instead of a 
 Since email addresses are required to be unique within WordPress anyway, they also make good identifiers for logging in. For slightly better security, set your username to something random and then just forget it and use your email address instead.
 
 Special thanks to:
+
 * r-a-y for compatibility with older versions of WPMU and XML-RPC
 * andykillen for introducing translatable strings and the Dutch translation
 
