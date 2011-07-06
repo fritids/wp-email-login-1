@@ -2,7 +2,7 @@
 Contributors: beaulebens, r-a-y, andykillen
 Tags: email, login, authentication, users, admin
 Requires at least: 2.8
-Tested up to: 3.1-alpha
+Tested up to: 3.2
 Stable tag: trunk
 
 Lets you use your email address to log into your WordPress account instead of a username.
