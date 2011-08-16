@@ -26,7 +26,8 @@ add_action( 'init', 'dr_email_load_language', 1 );
  * @return Results of autheticating via wp_authenticate_username_password(), using the username found when looking up via email.
  */
 function dr_email_login_authenticate( $user, $username, $password ) {
-	$user = get_user_by_email( $username );
+	if ( !empty( $username ) )
+		$user = get_user_by_email( $username );
 	if ( $user )
 		$username = $user->user_login;
 	
