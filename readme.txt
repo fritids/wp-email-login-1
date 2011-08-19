@@ -23,6 +23,13 @@ Special thanks to:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.1.2 =
+* Include French translation, props Sebastien
+* Rename translation files to standard format
+
+= 4.1.1 =
+* Minor fix for if the username is empty, props Sebastien
+
 = 4.1 =
 * Clean up code a bit
 * Introduce translatable strings, props andykillen. Packaged with Dutch translation.
