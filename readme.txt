@@ -23,6 +23,11 @@ Special thanks to:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.1.3 =
+* Swedish translation, props Joel
+* Persian translation, props Sushyant (http://www.zavarzadeh.org)
+* Better escaping on string output
+
 = 4.1.2 =
 * Include French translation, props Sebastien
 * Rename translation files to standard format
