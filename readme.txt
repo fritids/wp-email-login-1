@@ -23,6 +23,9 @@ Special thanks to:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.1.3.1 =
+* Fix syntax errors. SORRY!
+
 = 4.1.3 =
 * Swedish translation, props Joel
 * Persian translation, props Sushyant (http://www.zavarzadeh.org)
