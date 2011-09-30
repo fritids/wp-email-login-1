@@ -23,6 +23,11 @@ Special thanks to:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.1.4 =
+* Add Finnish translation, props Jarno (http://www.daddyfinland.fi/)
+* Tweak JS replacement to look for core translation and replace with plugin-specific one
+* Update translation files to have correct project name etc
+
 = 4.1.3.1 =
 * Fix syntax errors. SORRY!
 
