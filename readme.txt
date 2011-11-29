@@ -2,7 +2,7 @@
 Contributors: beaulebens, r-a-y, andykillen
 Tags: email, login, authentication, users, admin
 Requires at least: 2.8
-Tested up to: 3.2
+Tested up to: 3.3
 Stable tag: trunk
 
 Lets you use your email address to log into your WordPress account instead of a username. Translations available for:
@@ -29,6 +29,11 @@ Special thanks to:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.2 =
+* Move translations into /languages/
+* Extra check to make sure a variable is defined, props Horacio
+* Updated to both Dutch translations to fix a typo, thanks Michael! http://www.concatenate.nl
+
 = 4.1.6 =
 * Add German translation, props Florian
 

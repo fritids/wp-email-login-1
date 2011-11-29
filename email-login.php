@@ -4,7 +4,7 @@ Plugin Name: Email Login
 Plugin URI: http://dentedreality.com.au/projects/wp-plugin-email-login/
 Description: Allows you to log into WordPress (directly or via XML-RPC) using your email address instead of a(nother) username.
 Author: Beau Lebens
-Version: 4.1.6
+Version: 4.2
 Author URI: http://dentedreality.com.au/
 */
 
@@ -13,7 +13,7 @@ Author URI: http://dentedreality.com.au/
  */
 function dr_email_load_language() {
 	$plugin_dir = basename( dirname( __FILE__ ) );
-	load_plugin_textdomain( 'email-login', null, $plugin_dir );
+	load_plugin_textdomain( 'email-login', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
 add_action( 'init', 'dr_email_load_language', 1 );
 
@@ -28,7 +28,7 @@ add_action( 'init', 'dr_email_load_language', 1 );
 function dr_email_login_authenticate( $user, $username, $password ) {
 	if ( !empty( $username ) )
 		$user = get_user_by_email( $username );
-	if ( $user )
+	if ( isset( $user->user_login, $user ) )
 		$username = $user->user_login;
 	
 	return wp_authenticate_username_password( null, $username, $password );

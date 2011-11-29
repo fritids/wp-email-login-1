@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WP Email Login\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-07 14:16+0100\n"
-"PO-Revision-Date: 2011-09-29 12:04+0100\n"
+"PO-Revision-Date: 2011-11-16 22:49-0800\n"
 "Last-Translator: Beau Lebens <beau@automattic.com>\n"
 "Language-Team: WP Email Login <beau@dentedreality.com.au>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: email-login.php:84
 #: email-login.php:88
 msgid "Username or Email"
-msgstr "Gegruikersnaam of Email"
+msgstr "Gebruikersnaam of Email"
 
 #: email-login.php:88
 msgid "username"
