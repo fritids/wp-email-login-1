@@ -30,7 +30,7 @@ Special thanks to:
 
 == Changelog ==
 = 4.2.1 =
-* Switch to get_user_by() to avoid deprecated notice
+* Switch to get_user_by() to avoid deprecated notice, props benjaminniess
 
 = 4.2 =
 * Move translations into /languages/
