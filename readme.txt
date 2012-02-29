@@ -29,6 +29,9 @@ Special thanks to:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.2.1 =
+* Switch to get_user_by() to avoid deprecated notice
+
 = 4.2 =
 * Move translations into /languages/
 * Extra check to make sure a variable is defined, props Horacio
