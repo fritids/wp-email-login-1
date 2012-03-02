@@ -29,6 +29,9 @@ Special thanks to:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.2.2 =
+* Add Czech translation, props Zaantar
+
 = 4.2.1.1 =
 * Syntax error -- SORRY!
 
