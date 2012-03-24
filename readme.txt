@@ -18,6 +18,7 @@ Special thanks to:
 * andykillen for introducing translatable strings and the Dutch translation
 
 Translations available for:
+
 * German
 * Polish
 * Finnish
