@@ -5,13 +5,7 @@ Requires at least: 2.8
 Tested up to: 3.3
 Stable tag: trunk
 
-Lets you use your email address to log into your WordPress account instead of a username. Translations available for:
-* German
-* Polish
-* Finnish
-* Swedish
-* Persian
-* French
+Lets you use your email address to log into your WordPress account instead of a username.
 
 == Description ==
 Lets you use your email address to log into your WordPress account instead of a username.
@@ -22,6 +16,14 @@ Special thanks to:
 
 * r-a-y for compatibility with older versions of WPMU and XML-RPC
 * andykillen for introducing translatable strings and the Dutch translation
+
+Translations available for:
+* German
+* Polish
+* Finnish
+* Swedish
+* Persian
+* French
 
 == Installation ==
 1. Unzip and upload `/wp-email-login/` to the `/wp-content/plugins/` directory
