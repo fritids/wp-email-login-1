@@ -32,6 +32,9 @@ Translations available for:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.2.3 =
+* Add Lithuanian translation, props Vincent G, from http://www.host1free.com
+
 = 4.2.2 =
 * Add Czech translation, props Zaantar
 
