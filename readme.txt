@@ -17,14 +17,20 @@ Special thanks to:
 * r-a-y for compatibility with older versions of WPMU and XML-RPC
 * andykillen for introducing translatable strings and the Dutch translation
 
-Translations available for:
+Translations included for:
 
-* German
-* Polish
+* Czech
+* Dutch
 * Finnish
-* Swedish
-* Persian
 * French
+* German
+* Hungarian
+* Lithuanian
+* Persian
+* Polish
+* Portuguese (Brazil)
+* Swedish
+
 
 == Installation ==
 1. Unzip and upload `/wp-email-login/` to the `/wp-content/plugins/` directory
@@ -32,6 +38,9 @@ Translations available for:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.3.2 =
+* Add Hungarian translation, props Peter: Surbma - http://surbma.hu
+
 = 4.3.1 =
 * Add Brazilian Portuguese translation, props Alysson http://profiles.wordpress.org/alyssonweb
 
