@@ -38,6 +38,9 @@ Translations included for:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.3.3 =
+* Add Bengalia translation, props S. M. Mehdi Akram - http://www.shamokaldarpon.com
+
 = 4.3.2 =
 * Add Hungarian translation, props Peter: Surbma - http://surbma.hu
 
