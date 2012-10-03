@@ -38,6 +38,10 @@ Translations included for:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.3.4 =
+* Add a conditional in the label-changing JS to avoid errors in some cases
+* Only output the JS on the wp-login.php page to avoid JS errors as well
+
 = 4.3.3 =
 * Add Bengalia translation, props S. M. Mehdi Akram - http://www.shamokaldarpon.com
 
