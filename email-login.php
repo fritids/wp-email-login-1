@@ -27,6 +27,7 @@ add_action( 'init', 'dr_email_load_language', 1 );
  */
 function dr_email_login_authenticate( $user, $username, $password ) {
 	if ( !empty( $username ) ) {
+		$username = str_replace( '&', '&amp;', stripslashes( $username ) );
 		$user = get_user_by( 'email', $username );
 		if ( isset( $user, $user->user_login, $user->user_status ) && 0 == (int) $user->user_status )
 			$username = $user->user_login;
