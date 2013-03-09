@@ -2,7 +2,7 @@
 Contributors: beaulebens, r-a-y, andykillen
 Tags: email, login, authentication, users, admin
 Requires at least: 2.8
-Tested up to: 3.5
+Tested up to: 3.6
 Stable tag: trunk
 
 Use your email address instead of a username to log into your WordPress.
@@ -38,6 +38,9 @@ Translations included for:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.5 =
+* Don't attempt to override authentication if a WP_User object exists. Fixes compat with Jetpack (and potentially other auth-related plugins)
+
 = 4.4 =
 * Work around a few encoding issues in WP to handle weird characters in emails (' and &), props Mykle
 
