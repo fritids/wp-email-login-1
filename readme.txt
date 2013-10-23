@@ -32,6 +32,7 @@ Translations included for:
 * Persian
 * Polish
 * Portuguese (Brazil)
+* Serbian
 * Spanish
 * Swedish
 
@@ -42,6 +43,8 @@ Translations included for:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.6.2 =
+* Add Serbian translation, props Borisa - http://www.webhostinghub.com
 = 4.6.1 =
 * Add Greek translation, props kostasx
 
