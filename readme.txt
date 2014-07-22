@@ -2,7 +2,7 @@
 Contributors: beaulebens, r-a-y, andykillen
 Tags: email, login, authentication, users, admin
 Requires at least: 2.8
-Tested up to: 3.6
+Tested up to: 4.0
 Stable tag: trunk
 
 Use your email address instead of a username to log into your WordPress.
@@ -32,6 +32,7 @@ Translations included for:
 * Persian
 * Polish
 * Portuguese (Brazil)
+* Russian
 * Serbian
 * Spanish
 * Swedish
@@ -44,6 +45,9 @@ Translations included for:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.6.4 =
+* Add Russian translation, props Flector - http://www.wordpressplugins.ru/administration/wp-email-login.html
+
 = 4.6.3 =
 * Add Turkish translation, props Huseyin
 
@@ -54,7 +58,7 @@ Translations included for:
 * Add Greek translation, props kostasx
 
 = 4.6 =
-* Add Spanish translation, props Javier Martínez of http://culturageek.com
+* Add Spanish translation, props Javier Martínez - http://culturageek.com
 
 = 4.5 =
 * Don't attempt to override authentication if a WP_User object exists. Fixes compat with Jetpack (and potentially other auth-related plugins)
@@ -63,7 +67,7 @@ Translations included for:
 * Work around a few encoding issues in WP to handle weird characters in emails (' and &), props Mykle
 
 = 4.3.5 =
-* Fix conditional inclusion of label JS so that it appears on all wp-login.php pages. Props James B. of http://cloudshout.co.uk
+* Fix conditional inclusion of label JS so that it appears on all wp-login.php pages. Props James B. - http://cloudshout.co.uk
 
 = 4.3.4 =
 * Add a conditional in the label-changing JS to avoid errors in some cases
@@ -76,13 +80,13 @@ Translations included for:
 * Add Hungarian translation, props Peter: Surbma - http://surbma.hu
 
 = 4.3.1 =
-* Add Brazilian Portuguese translation, props Alysson http://profiles.wordpress.org/alyssonweb
+* Add Brazilian Portuguese translation, props Alysson - http://profiles.wordpress.org/alyssonweb
 
 = 4.3 =
 * Check user_status to confirm the user is verified before allowing authentication (used in BuddyPress). Props Steve Holland. If you have a plugin which is using user_status to store some non-zero value, then those users will *not* be able to log in using their email address with this update.
 
 = 4.2.3 =
-* Add Lithuanian translation, props Vincent G, from http://www.host1free.com
+* Add Lithuanian translation, props Vincent G - http://www.host1free.com
 
 = 4.2.2 =
 * Add Czech translation, props Zaantar
@@ -96,7 +100,7 @@ Translations included for:
 = 4.2 =
 * Move translations into /languages/
 * Extra check to make sure a variable is defined, props Horacio
-* Updated to both Dutch translations to fix a typo, thanks Michael! http://www.concatenate.nl
+* Updated to both Dutch translations to fix a typo, thanks Michael - http://www.concatenate.nl
 
 = 4.1.6 =
 * Add German translation, props Florian
@@ -105,7 +109,7 @@ Translations included for:
 * Add Polish translation, props Piotr
 
 = 4.1.4 =
-* Add Finnish translation, props Jarno (http://www.daddyfinland.fi/)
+* Add Finnish translation, props Jarno - http://www.daddyfinland.fi/
 * Tweak JS replacement to look for core translation and replace with plugin-specific one
 * Update translation files to have correct project name etc
 
@@ -114,7 +118,7 @@ Translations included for:
 
 = 4.1.3 =
 * Swedish translation, props Joel
-* Persian translation, props Sushyant (http://www.zavarzadeh.org)
+* Persian translation, props Sushyant - http://www.zavarzadeh.org
 * Better escaping on string output
 
 = 4.1.2 =
